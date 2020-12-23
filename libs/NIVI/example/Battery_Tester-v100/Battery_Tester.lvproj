@@ -11,7 +11,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Battery_Tester_Main.vi" Type="VI" URL="../Battery_Tester_Main.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+			</Item>
+			<Item Name="esdaq_analogRead.vi" Type="VI" URL="../../../ver/demo-v100/esdaq_analogRead.vi"/>
+			<Item Name="esdaq_analogWrite.vi" Type="VI" URL="../../../ver/demo-v100/esdaq_analogWrite.vi"/>
+			<Item Name="esdaq_init.vi" Type="VI" URL="../../../ver/demo-v100/esdaq_init.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
