@@ -13,6 +13,7 @@
 		<Item Name="Battery_Tester_Main.vi" Type="VI" URL="../Battery_Tester_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -21,6 +22,7 @@
 			<Item Name="esdaq_analogRead.vi" Type="VI" URL="../../../ver/demo-v100/esdaq_analogRead.vi"/>
 			<Item Name="esdaq_analogWrite.vi" Type="VI" URL="../../../ver/demo-v100/esdaq_analogWrite.vi"/>
 			<Item Name="esdaq_init.vi" Type="VI" URL="../../../ver/demo-v100/esdaq_init.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
