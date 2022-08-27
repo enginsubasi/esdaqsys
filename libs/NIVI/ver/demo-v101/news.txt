@@ -1,0 +1,2 @@
+-v101
+--Multiple direction and digital write VI's are added to the library.
